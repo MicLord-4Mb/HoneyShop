@@ -1,8 +1,11 @@
 import React from 'react'
+import logo from '../../assets/logo.png'
 
 const Logo = () => {
   return (
-    <div>Logo</div>
+    <div>
+      <img src={logo} alt="MELLIFERA" className="logo" />
+    </div>
   )
 }
 

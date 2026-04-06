@@ -1,5 +1,5 @@
 import React from 'react'
-import StyleSheet from './MainLayout.css'
+import StyleSheet from './MainLayout.module.css'
 import Header from './Header'
 import Footer from './Footer'
 

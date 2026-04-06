@@ -1,9 +1,17 @@
 import React from 'react'
+import {MainLayout, HeroSection, MissonNews, ProductGrid, Testimonial, Gallary, Newletter} from './components'
 
 const App = () => {
   return (
-    <div>App</div>
+    <MainLayout>
+      <HeroSection />
+      <MissonNews />
+      <ProductGrid />
+      <Testimonial />
+      <Gallary />
+      <Newletter />
+    </MainLayout>
   )
-}
+} 
 
 export default App

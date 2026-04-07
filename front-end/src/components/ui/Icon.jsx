@@ -1,5 +1,5 @@
 import React from 'react'
-import StyleSheet from './Cart.module.css'
+import StyleSheet from './Icon.module.css'
 
 const Icon = () => {
   return (

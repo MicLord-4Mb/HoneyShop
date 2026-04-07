@@ -1,0 +1,27 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.orange {
+    background-color: var(--orange-color);
+    color: white;
+}
+
+.yellow {
+    background-color: var(--yellow-color);
+    color: white;
+}

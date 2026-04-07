@@ -1,0 +1,19 @@
+.link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--title-color);
+    font-weight: 600;
+    transition: gap 0.3s;
+    gap: 8px;
+}
+
+.link:hover {
+    color: var(--orange-color);
+    gap: 12px;
+}
+
+.icon {
+    font-size: 1.2em;
+    line-height: 0;
+}

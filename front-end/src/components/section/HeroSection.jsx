@@ -1,5 +1,6 @@
 import React from 'react'
 import StyleSheet from './HeroSection.module.css'
+import Button from '../ui/Links/Button';
 
 const HeroSection = () => {
   return (

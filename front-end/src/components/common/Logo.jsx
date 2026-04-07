@@ -1,10 +1,11 @@
 import React from 'react'
-import logo from '../../assets/new-logo.png'
+import {logo} from '../../assets'
+import StyleSheet from './Logo.module.css'
 
 const Logo = () => {
   return (
-    <div>
-      <img src={logo} alt="MELLIFERA" className="logo" />
+    <div className={StyleSheet.wrapper}>
+      <img src={logo} alt="MELLIFERA" className={StyleSheet.logo} />
     </div>
   )
 }

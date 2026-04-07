@@ -19,12 +19,6 @@
     --font-family: 'Open Sans', sans-serif;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 body {
     font-family: var(--font-family);
     background-color: var(--background-color);

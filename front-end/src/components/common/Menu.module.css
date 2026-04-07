@@ -1,0 +1,15 @@
+.nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+}
+
+.navItems {
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 15px;
+        letter-spacing: 2.25px;
+        vertical-align: middle;
+        text-transform: uppercase;
+}

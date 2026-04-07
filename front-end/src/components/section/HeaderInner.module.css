@@ -1,0 +1,9 @@
+.wrapper {
+    position: fixed;
+    width: 1300px;
+    height: 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: violet;
+}

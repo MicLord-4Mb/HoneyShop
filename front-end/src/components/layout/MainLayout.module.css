@@ -1,0 +1,11 @@
+.appWrapper {
+  max-width: 1920px;
+  background-color: white;
+}
+
+.appWrapper h1 {
+  color: var(--title-color);
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 136px;
+}

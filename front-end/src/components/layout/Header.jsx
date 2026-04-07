@@ -1,18 +1,14 @@
 import React from 'react'
-import './Header.css'
+import StyleSheet from './Header.module.css'
 import HeaderInner from '../section/HeaderInner'
-
+import HeroSection from '../section/HeroSection'
+  
 
 const Header = () => {
   return (
-    <header className="header">
+    <header className={StyleSheet.hWrapper}>
       <HeaderInner />
-      <h1 className="header-title">HONEY BEE</h1>
-      <h2 className="header-subtitle">FRESH & SWEET AS HONEY.</h2>
-      <p className="header-description">
-        Lorem ipsum dolor sit amet, sint nostrum mea ut, vel semper vidisse eu usu temporibus disputationi voluptatibus in ei est possit salutandi abhorrea acusata, ad cum eruditi expetendis. Ad cum eruditi expetendis.
-      </p>
-      <a href="#products" className="header-button">VIEW MORE</a>
+      <HeroSection />
     </header>
   )
 }

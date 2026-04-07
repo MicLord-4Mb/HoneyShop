@@ -4,7 +4,6 @@ import {MainLayout, HeroSection, MissonNews, ProductGrid, Testimonial, Gallary, 
 const App = () => {
   return (
     <MainLayout>
-      <HeroSection />
       <MissonNews />
       <ProductGrid />
       <Testimonial />

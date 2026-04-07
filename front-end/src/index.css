@@ -10,6 +10,7 @@
 
 :root {
     --orange-color: #C74817;
+    --accent-color: var(--orange-color);
     --yellow-color: #D3A863;
     --title-color: #131313;
     --nav-color: #3C3C3C;
@@ -25,7 +26,10 @@ body {
     color: var(--text-color);
 }
 
-
+a {
+    color: var(--title-color);
+    text-decoration: none;
+}
 
 
 

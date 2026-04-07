@@ -20,7 +20,7 @@ import h1Rev8 from "./h1-rev-img-8.png";
 import h1Rev9 from "./h1-rev-img-9.png";
 import h1Rev10 from "./h1-rev-img-10.png";
 import h1Rev11 from "./h1-rev-img-11.png";
-import h1Rev12 from "./h1-rev-img-12.jpg";
+import h1Rev12 from "./h1-rev-img-12.png";
 import homeProduct1 from "./h1product1.jpg";
 import homeProduct2 from "./h1product2.jpg";
 import homeProduct3 from "./h1product3.jpg";

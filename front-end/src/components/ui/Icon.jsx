@@ -2,7 +2,7 @@ import React from 'react'
 import StyleSheet from './Icon.module.css'
 import { ReactComponent as CartIcon } from '../../assets/icons/cart-icon.svg';
 import { ReactComponent as ChatIcon } from '../../assets/icons/chat-icon.svg';
-import { ReactComponent as Chevron } from '../../assets/icons/chevron.svg';
+import { ReactComponent as Chevron } from '../../assets/icons/chevron-icon.svg';
 import { ReactComponent as Quote } from '../../assets/icons/quote.svg';
 
 const iconTypes = {

@@ -1,8 +1,4 @@
 import h1Rev6 from "./bee-12.png";
-import cartIcon from "./cart-icon.svg";
-import chatIcon from "./chat-icon.svg";
-import quoteIcon from "./quote-icon.svg";
-import chevronIcon from "./chevron-icon.svg";
 import footerPng3 from "./footer-png3.png";
 import h1Img14 from "./h1-img-14.png";
 import homeGallery1 from "./h1-img1.jpg";
@@ -37,11 +33,7 @@ import background from "./image.png";
 import logo from "./new-logo.png";
 
 export {
-  h1Rev6,
-  cartIcon,
-    chatIcon,
-    quoteIcon,
-    chevronIcon,
+    h1Rev6,
     footerPng3,
     h1Img14,
     homeGallery1,

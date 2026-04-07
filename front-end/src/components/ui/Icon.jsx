@@ -1,9 +1,9 @@
 import React from 'react'
 import StyleSheet from './Icon.module.css'
-import { ReactComponent as CartIcon } from '../../assets/icons/cart-icon.svg';
-import { ReactComponent as ChatIcon } from '../../assets/icons/chat-icon.svg';
-import { ReactComponent as Chevron } from '../../assets/icons/chevron-icon.svg';
-import { ReactComponent as Quote } from '../../assets/icons/quote-icon.svg';
+import CartIcon from '../../assets/icons/cart-icon.svg?react';
+import ChatIcon from '../../assets/icons/chat-icon.svg?react';
+import Chevron from '../../assets/icons/chevron-icon.svg?react';
+import Quote from '../../assets/icons/quote-icon.svg?react';
 
 const iconTypes = {
   cart: CartIcon,
@@ -22,14 +22,15 @@ const Icon = ({ name, size = 24, color, className = ''}) => {
 
 
   return (
-    <span className={`${StyleSheet.iconConteiner} ${className}`}
-        style={{ 
-            width: size,
-            height: size, 
-            color: color || 'currentColor' 
-        }}
+    <span 
+      className={`${StyleSheet.iconConteiner} ${className}`}
+      style={{ 
+        width: size,
+        height: size, 
+        color: color || 'currentColor' 
+      }}
     >
-        <SelectedIcon width="100%" height="100%" />
+      <SelectedIcon />
     </span>
   )
 }

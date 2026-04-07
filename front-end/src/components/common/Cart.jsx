@@ -6,7 +6,7 @@ import Icon from '../ui/Icon';
 const Cart = () => {
   return (
     <div className={StyleSheet.wrapper}>
-      <Icon name="cart" />
+      <Icon name="cart" size={20} />
       <Button text="Contact" variant="yellow" />
     </div>
   )

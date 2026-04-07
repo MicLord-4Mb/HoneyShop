@@ -38,3 +38,10 @@ header{
     width: 166px;
     opacity: 0.8;
 }
+
+.badge {
+    position: absolute;
+    top: 362px;
+    right: 154px;
+    width: 226px;
+}

@@ -1,6 +1,39 @@
-.hWrapper {
+header{
+    min-height: 100vh;
+}
+
+.wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.decLeaf1, .decLeaf2, .decLeaf3 {
+    position: absolute;
+    pointer-events: none;
+    user-select: none;
+}
+
+.decLeaf1 {
+    top: 194px;
+    left: 0px;
+    width: 182px;
+    opacity: 0.8;
+}
+
+.decLeaf2 {
+    top: 592px;
+    right: 0px;
+    width: 188px;
+    opacity: 0.8;
+}
+
+.decLeaf3 {
+    top: 814px;
+    left: 0px;
+    width: 166px;
+    opacity: 0.8;
 }

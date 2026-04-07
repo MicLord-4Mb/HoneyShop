@@ -1,15 +1,22 @@
-.nav {
+.nav ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 100%;
+        list-style: none;
+        gap: 46px;
 }
 
-.navItems {
+.navItem {
         font-weight: 700;
         font-style: Bold;
         font-size: 15px;
         letter-spacing: 2.25px;
         vertical-align: middle;
-        text-transform: uppercase;
+        text-transform: uppercase;        
 }
+
+.navItem a:hover {
+        color: var(--accent-color);
+}
+

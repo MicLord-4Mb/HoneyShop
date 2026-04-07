@@ -9,7 +9,7 @@ const HeroSection = () => {
       <p className={StyleSheet.description}>
         Lorem ipsum dolor sit amet, sint nostrum mea ut, vel semper vidisse eu usu temporibus disputationi voluptatibus in ei est possit salutandi abhorrea acusata, ad cum eruditi expetendis. Ad cum eruditi expetendis.
       </p>
-      <a href="#products" className={StyleSheet.button}>VIEW MORE</a>
+      <Button text="View More" variant="orange" />
     </div>
   )
 }

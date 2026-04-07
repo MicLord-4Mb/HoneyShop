@@ -8,7 +8,8 @@ header{
     align-items: center;
     width: 100%;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
+    padding-top: 118px;
 }
 
 .decLeaf1, .decLeaf2, .decLeaf3 {

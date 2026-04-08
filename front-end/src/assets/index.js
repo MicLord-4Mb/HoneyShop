@@ -31,6 +31,9 @@ import homeClient4 from "./home-1-client-4.png";
 import homeTestimonial2 from "./home-1-testimonial-2.png";
 import background from "./image.png";
 import logo from "./new-logo.png";
+import background1 from "./background1.png";
+import background2 from "./background2.png";
+import background3 from "./background3.png";
 
 export {
     h1Rev6,
@@ -65,5 +68,8 @@ export {
     homeClient4,
     homeTestimonial2,
     background,
-    logo
+    logo,
+    background1,
+    background2,
+    background3
 };

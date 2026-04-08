@@ -1,13 +1,14 @@
 import React from 'react'
-import SocialMediaLinks from '../section/SocialMediaLinks';
+import StyleSheet from './Footer.module.css'
+import SocialMediaLinks from '../common/SocialMediaLinks';
 import { footerPng3 } from '../../assets';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className={StyleSheet.wrapper}>
       <SocialMediaLinks />
-      <img src={footerPng3} alt="" />
-      <p className='copyRights'>© 2020 Qode Interactive All Rights Reserved</p>
+      <img src={footerPng3} alt="" className={StyleSheet.imgFooter} />
+      <p className={StyleSheet.copyRights}>© 2020 Qode Interactive All Rights Reserved</p>
     </footer>
   )
 }

@@ -24,10 +24,10 @@ import h1Rev12 from "./h1-rev-img-12.png";
 import homeProduct1 from "./h1product1.jpg";
 import homeProduct2 from "./h1product2.jpg";
 import homeProduct3 from "./h1product3.jpg";
-import homeClient1 from "./home-1-client-1.png";
-import homeClient2 from "./home-1-client-2.png";
-import homeClient3 from "./home-1-client-3.png";
-import homeClient4 from "./home-1-client-4.png";
+import homeArticle1 from "./home-1-client-1.png";
+import homeArticle2 from "./home-1-client-2.png";
+import homeArticle3 from "./home-1-client-3.png";
+import homeArticle4 from "./home-1-client-4.png";
 import homeTestimonial2 from "./home-1-testimonial-2.png";
 import background from "./image.png";
 import logo from "./new-logo.png";
@@ -62,10 +62,10 @@ export {
     homeProduct1,
     homeProduct2,
     homeProduct3,
-    homeClient1,
-    homeClient2,
-    homeClient3,
-    homeClient4,
+    homeArticle1,
+    homeArticle2,
+    homeArticle3,
+    homeArticle4,
     homeTestimonial2,
     background,
     logo,

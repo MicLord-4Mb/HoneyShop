@@ -1,0 +1,7 @@
+.articlesGrid {
+    width: 100%;
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 20px;
+}

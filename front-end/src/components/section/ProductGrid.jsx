@@ -6,7 +6,7 @@ import { background1, homeProduct1, homeProduct2, homeProduct3 } from '../../ass
   
 const ProductGrid = () => {
   return (
-    <div className={StyleSheet.wrapper} style={{ backgroundImage: `url(${background1})` }}>
+    <section className={StyleSheet.wrapper} style={{ backgroundImage: `url(${background1})` }}>
       <Container className={StyleSheet.contentContainer}>
         <h2 className={StyleSheet.title}>Our Products</h2>
         <p className={StyleSheet.desc}>
@@ -34,7 +34,7 @@ const ProductGrid = () => {
           />
         </section>
       </Container>
-    </div>
+    </section>
   )
 }
 

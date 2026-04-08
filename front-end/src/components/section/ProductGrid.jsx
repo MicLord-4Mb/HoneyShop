@@ -9,7 +9,10 @@ const ProductGrid = () => {
     <div className={StyleSheet.wrapper} style={{ backgroundImage: `url(${background1})` }}>
       <Container className={StyleSheet.contentContainer}>
         <h2>Our Products</h2>
-        <p>Discover our amazing collection of products!</p>
+        <p>
+          Check out our online shop for cute bee-themed apparel, unique bee suits, 
+          educational tools, gift certificates and more.
+        </p>
         <section className={StyleSheet.shopGrid}>
           <ProductCard 
             title="Product 1" 

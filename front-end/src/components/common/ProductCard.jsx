@@ -18,12 +18,12 @@ const ProductCard = ({ title, price = '$0.00', desc, imageUrl = '' }) => {
       
       <Button 
         text={
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', justifyContent: 'center' }}>
+          <div className={StyleSheet.btContent}>
             <Icon name="cart" size={20} />
             <span>Add to Cart</span>
           </div>
         } 
-        variant="black" 
+        bgColor="black" 
       />
     </article>
   )

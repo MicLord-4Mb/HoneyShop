@@ -1,20 +1,29 @@
-.wrapper {
-}
-
 .contentContainer {
   max-width: 422px;
   width: 100%;
+  height: 100%;
+  height: 826px;
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: left;
+  align-items: flex-start;
+  justify-content:flex-start;
   background-color: var(--secondary-background-color);
+  padding: 0 25px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 700;
+  text-align: left;
   color: var(--title-color);
-  text-align: center;
-  margin: 0;
+  margin: 20px 0 0 0;
+  padding: 18px 15px; 
   text-transform: uppercase;
+}
+
+.newsGrid {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  padding: 0 15px;
 }

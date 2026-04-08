@@ -58,3 +58,10 @@
     font-weight: 600;
     color: var(--orange-color);
 }
+
+.btContent {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    justify-content: center;    
+}

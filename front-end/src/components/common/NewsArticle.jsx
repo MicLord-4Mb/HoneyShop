@@ -6,7 +6,7 @@ const NewsArticle = ({ date, title, desc }) => {
     <div className={StyleSheet.newsArticle}>
       <p className={StyleSheet.date}>{date}</p>
       <h3 className={StyleSheet.title}>{title}</h3>
-      <p className={StyleSheet.description}>{desc}</p>
+      <p className={StyleSheet.desc}>{desc}</p>
     </div>
   )
 }

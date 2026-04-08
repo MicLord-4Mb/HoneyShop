@@ -7,10 +7,10 @@ import Container from '../layout/Container';
 const Articles = () => {
   return (
     <section className={StyleSheet.wrapper}>
-      <Container className={StyleSheet.content}>  
+      <Container className={StyleSheet.contentContainer}>  
         <h2 className={StyleSheet.title}>types of honey</h2>
         <p className={StyleSheet.desc}>
-            Dive into our collection of articles to discover the fascinating world of bees, their crucial role in our ecosystem, and the art of beekeeping. From tips on starting your own hive to insights into bee behavior and conservation efforts, our articles are a treasure trove of knowledge for both beginners and seasoned beekeepers alike.
+            Learn more about some of the products we take special pride in.
         </p>
         <section className={StyleSheet.articlesGrid}>  
             <Article

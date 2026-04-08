@@ -8,26 +8,26 @@ const ProductGrid = () => {
   return (
     <div className={StyleSheet.wrapper} style={{ backgroundImage: `url(${background1})` }}>
       <Container className={StyleSheet.contentContainer}>
-        <h2>Our Products</h2>
-        <p>
+        <h2 className={StyleSheet.title}>Our Products</h2>
+        <p className={StyleSheet.desc}>
           Check out our online shop for cute bee-themed apparel, unique bee suits, 
           educational tools, gift certificates and more.
         </p>
         <section className={StyleSheet.shopGrid}>
           <ProductCard 
-            title="Product 1" 
+            title="Heather Honey" 
             price="$19.99"
             desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit." 
             imageUrl={homeProduct1} 
           />
           <ProductCard 
-            title="Product 2" 
+            title="Jarrah Honey" 
             price="$29.99"
             desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit." 
             imageUrl={homeProduct2} 
           />
           <ProductCard 
-            title="Product 3" 
+            title="Linden Honey" 
             price="$39.99"
             desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit." 
             imageUrl={homeProduct3} 

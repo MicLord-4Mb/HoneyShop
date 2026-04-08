@@ -1,8 +1,11 @@
 .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+        width: 100%;
+        background-color: var(--background-color);
+        /* background-image: url('../../assets/background2.png'); */
+        background-size: 1920px 700px;
+        background-position: center top;
+        background-repeat: no-repeat;
+        min-height: 700px;
 }
 
 .testimonial {

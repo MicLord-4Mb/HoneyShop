@@ -1,8 +1,11 @@
 import React from 'react'
+import StyleSheet from './Container.module.css'
 
-const Container = () => {
+const Container = ({ children, className }) => {
   return (
-    <div>Container</div>
+    <div className={`${StyleSheet.container} ${className || ''}`}>
+      {children}
+    </div>
   )
 }
 

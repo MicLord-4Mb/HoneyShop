@@ -1,0 +1,9 @@
+.wrapper {
+    width: 100%;
+    background-color: var(--background-color);
+    /* background-image: url('../../assets/background2.png'); */
+    background-size: 1920px 1000px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+}

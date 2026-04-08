@@ -3,6 +3,7 @@ import StyleSheet from './Newletter.module.css'
 import Container from '../layout/Container'
 import Button from '../ui/Links/Button'
 import { background3, h1Img14 } from '../../assets';
+import Articles from './Articles';
 
 const Newletter = () => {
   return (
@@ -35,6 +36,9 @@ const Newletter = () => {
         </div>
       
       </Container>
+      
+      <Articles />
+
     </section>
   )
 }

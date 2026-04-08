@@ -17,7 +17,7 @@ const App = () => {
       <Testimonial />
       <Gallary />
       <Newletter />
-      <Articles />
+      {/* <Articles /> */}
     </MainLayout>
   )
 } 

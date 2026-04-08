@@ -13,7 +13,7 @@ const HeroSection = () => {
           Lorem ipsum dolor sit amet, sint nostrum mea ut, vel semper vidisse eu usu temporibus disputationi voluptatibus in ei est possit salutandi abhorrea acusata, ad cum eruditi expetendis. Ad cum eruditi expetendis.
         </p>
         <span className={StyleSheet.btnWrapper}>
-          <Button text="View More" variant="orange" />
+          <Button text="View More" bgColor="orange" />
         </span>
       </div>
       <div className={StyleSheet.imageWrapper}>

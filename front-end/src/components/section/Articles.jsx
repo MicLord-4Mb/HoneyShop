@@ -1,6 +1,6 @@
 import React from 'react'
 import StyleSheet from './Articles.module.css'
-import Article from '../common/Article'
+import Article from '../common/ArticleCard'
 import { homeArticle1, homeArticle2, homeArticle3, homeArticle4 } from '../../assets';
 import Container from '../layout/Container';
 

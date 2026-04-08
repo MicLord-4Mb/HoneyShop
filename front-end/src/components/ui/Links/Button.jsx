@@ -1,9 +1,8 @@
 import StyleSheet from './Button.module.css';
 
-// variant может быть 'orange', 'yellow', 'black'
 const Button = ({ 
   text, 
-  variant = 'orange', 
+  bgColor = 'orange', 
   onClick, 
   type = 'button',
   className = ''
@@ -12,7 +11,7 @@ const Button = ({
     <button
       type={type} 
       className={
-        `${StyleSheet.button} ${StyleSheet[variant]} ${className}`} 
+        `${StyleSheet.button} ${StyleSheet[bgColor]} ${className}`} 
       onClick={onClick}
     >
       {text}

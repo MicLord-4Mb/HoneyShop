@@ -1,5 +1,5 @@
 import React from 'react'
-import StyleSheet from './Article.module.css'
+import StyleSheet from './ArticleCard.module.css'
 import TextLink from '../ui/Links/TextLink'
 import Container from '../layout/Container'
 
@@ -13,7 +13,7 @@ const Article = ({ title, desc, imageUrl, articleUrl="#"} ) => {
         <h3 className={StyleSheet.title}>{title}</h3>
         <p className={StyleSheet.description}>{desc}</p>
 
-        <TextLink text="Learn More" href={articleUrl} />
+        <TextLink text="Learn More" href={articleUrl} color="orange" />
       </Container>
     </article>
   )

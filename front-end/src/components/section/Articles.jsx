@@ -1,9 +1,12 @@
 import React from 'react'
 import StyleSheet from './Articles.module.css'
+import Article from '../common/Article'
 
 const Articles = () => {
   return (
-    <div className={StyleSheet.articles}>Articles</div>
+    <section className={StyleSheet.wrapper}>
+        <Article />
+    </section>
   )
 }
 

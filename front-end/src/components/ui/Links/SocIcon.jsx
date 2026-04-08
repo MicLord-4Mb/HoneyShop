@@ -1,5 +1,5 @@
 import React from 'react'
-import StyleSheet from './sIcon.module.css'
+import StyleSheet from './SocIcon.module.css'
 
 const sIcon = ({ text, href = "#" }) => {
   return (

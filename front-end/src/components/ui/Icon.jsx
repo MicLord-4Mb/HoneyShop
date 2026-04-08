@@ -1,15 +1,15 @@
 import React from 'react'
 import StyleSheet from './Icon.module.css'
-import CartIcon from '../../assets/icons/cart-icon.svg?react';
-import ChatIcon from '../../assets/icons/chat-icon.svg?react';
-import Chevron from '../../assets/icons/chevron-icon.svg?react';
-import Quote from '../../assets/icons/quote-icon.svg?react';
+import { CartIcon, ChatIcon, Chevron, Quote, FacebookIcon, InstagramIcon, TwitterIcon } from '../../assets/icons';
 
 const iconTypes = {
   cart: CartIcon,
   chat: ChatIcon,
   chevron: Chevron,
   quote: Quote,
+  facebook: FacebookIcon,
+  instagram: InstagramIcon,
+  twitter: TwitterIcon
 };
 
 const Icon = ({ name, size = 24, color, className = ''}) => {
@@ -23,7 +23,7 @@ const Icon = ({ name, size = 24, color, className = ''}) => {
 
   return (
     <span 
-      className={`${StyleSheet.iconConteiner} ${className}`}
+      className={`${StyleSheet.iconContainer} ${className}`}
       style={{ 
         width: size,
         height: size, 

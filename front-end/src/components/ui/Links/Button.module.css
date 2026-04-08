@@ -25,3 +25,8 @@
     background-color: var(--yellow-color);
     color: white;
 }
+
+.black {
+    background-color: var(--background-color);
+    color: var(--title-color);
+}

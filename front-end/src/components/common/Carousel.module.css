@@ -10,6 +10,7 @@
     height: 490px;
     overflow: hidden;
     cursor: pointer;
+    padding: 0;
 }
 
 .image {
@@ -38,10 +39,9 @@
     opacity: 1;
 }
 
-.iconArrow {
-    width: 60px;
-    height: 60px;
-    background: var(--background-color);
+.iconWrapper {
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -49,4 +49,17 @@
     color: var(--orange-color);
     font-size: 48px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.iconWrapper:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(20px);
 }

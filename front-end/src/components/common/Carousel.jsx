@@ -38,8 +38,7 @@ const Carousel = () => {
         />
 
         <div className={StyleSheet.overlay} onClick={nextSlide}>
-          <div className={StyleSheet.iconArrow}>
-            {/* <strong>&gt;</strong> */}
+          <div className={StyleSheet.iconWrapper}>
             <Icon 
               name="chevron" 
               size={32} 

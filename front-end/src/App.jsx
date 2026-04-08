@@ -1,5 +1,13 @@
 import React from 'react'
-import {MainLayout, HeroSection, MissonNews, ProductGrid, Testimonial, Gallary, Newletter} from './components'
+import {
+  MainLayout, 
+  MissonNews, 
+  ProductGrid, 
+  Testimonial, 
+  Gallary, 
+  Newletter,
+  Articles
+} from './components'
 
 const App = () => {
   return (
@@ -9,6 +17,7 @@ const App = () => {
       <Testimonial />
       <Gallary />
       <Newletter />
+      <Articles />
     </MainLayout>
   )
 } 

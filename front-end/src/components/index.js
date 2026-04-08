@@ -5,6 +5,7 @@ import ProductGrid from "./section/ProductGrid";
 import Testimonial from "./section/Testimonial";
 import Gallary from "./section/Gallary";
 import Newletter from "./section/Newletter";
+import Articles from "./section/Articles";
 
 export {
   MainLayout,
@@ -13,5 +14,6 @@ export {
   ProductGrid,
   Testimonial,
   Gallary,
-  Newletter
+  Newletter,
+  Articles
 }

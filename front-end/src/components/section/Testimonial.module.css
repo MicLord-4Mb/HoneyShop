@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.testimonial {
+    text-align: center;
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-weight: bold;
+}

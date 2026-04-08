@@ -1,6 +1,7 @@
 import React from 'react'
 import styleSheet from './Misson.module.css'
 import Container from '../layout/Container'
+import Carousel from '../common/Carousel'
 import { homeGallery1, h1Img2 } from '../../assets'
 
 const Misson = () => {
@@ -8,7 +9,8 @@ const Misson = () => {
     <section className={styleSheet.wrapper}>
       <Container className={styleSheet.contentContainer}>
         <div className={styleSheet.imageContainer}>
-          <img src={homeGallery1} alt="Gallery 1" />
+          {/* <img src={homeGallery1} alt="Gallery 1" /> */}
+          <Carousel />
         </div>
 
         <div className={styleSheet.textContainer}>

@@ -36,7 +36,6 @@
 }
 
 .description {
-font-family: Open Sans;
     font-weight: 400;
     font-style: Regular;
     font-size: 18px;
@@ -52,7 +51,6 @@ font-family: Open Sans;
 }
 
 .imageWrapper {
-    position: relative;
     flex: 1;
     display: flex;
     justify-content: center;
